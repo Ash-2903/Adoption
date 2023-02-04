@@ -1,0 +1,19 @@
+.instructions-img{
+    height: 100px;
+}
+
+table,td,tr{
+    text-align: center;
+    padding: 2%;
+    border-spacing:100px;
+}
+
+.div-6{
+    background-color: #A6B1E1;
+    text-align: center;
+    margin: 30px auto 0;
+    line-height: 2;
+}
+
+
+
