@@ -15,5 +15,8 @@ table,td,tr{
     line-height: 2;
 }
 
+table{
+    margin: auto;
+}
 
 
