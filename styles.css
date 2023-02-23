@@ -1,11 +1,105 @@
-.instructions-img{
-    height: 100px;
+/********** Navbar ***********/
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-table,td,tr{
-    text-align: center;
-    padding: 2%;
-    border-spacing:100px;
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #DCD6F7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  letter-spacing: 4px;
+  margin-right: 2rem; 
+}
+
+a:hover {
+  background-color: #111;
+  /* background-color: #A6B1E1; */
+}
+
+
+
+.navbar-heading {
+  color: white;
+  letter-spacing: 4px;
+  float: left;
+  padding: 14px 16px;
+  margin-left: 2rem;
+} 
+
+
+/************* div1 ************/
+
+.div-1{
+  background-color: #DCD6F7;
+  padding: 80px;
+  height: 35rem;
+}
+
+.title{
+  font-size: 4.5rem;
+  line-break: auto;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.div-1-table{
+  position: absolute;
+  top: 0;
+}
+
+.background-img{
+  display: block;
+  height: 50rem;    
+}
+
+.slogan {
+ margin-bottom: 5.5rem;
+ font-size: 1.8rem;
+ font-family: 'Montserrat', sans-serif;
+}
+
+/************** div-2 and div-3*************/
+
+.div-2 {
+  text-align: center;
+  margin: 7rem auto;
+}
+
+
+.div-3 {
+  text-align: center;
+  margin: 7rem auto;
+}
+
+
+.sub-headings{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #48466D;
+}
+
+
+.text {
+  font-size: 1.1rem;
+  line-height: 2;
+  font-family: 'Merriweather', serif;
+  margin: auto 6rem;
+}
+
+h2 {
+  color: #48466D;
 }
 
 .div-6{
@@ -13,10 +107,69 @@ table,td,tr{
     text-align: center;
     margin: 30px auto 0;
     line-height: 2;
+    padding: 0;
+    font-family: 'Merriweather', serif;
 }
+
+
+
+.instructions-img{
+    height: 100px;
+}
+
+.sec3{
+    text-align: center;
+    padding: 2%;
+    border-spacing:100px;
+}
+
+.td3{
+  border-radius: 4rem;
+  text-align: center;
+  padding: 2%;
+  border-spacing:100px;
+  font-family: 'Merriweather', serif;
+  background-color: #F4EEFF;
+}
+
+body{
+    margin: 0;
+}
+
 
 table{
     margin: auto;
 }
 
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  /* background-color: white; */
+  width: 7%;
+  margin: auto;
+  
+}
 
+
+
+
+/************** button **************/
+
+.btn {
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #EEEEEE;
+  font-size: 30px;
+  background: #191b1c;
+  padding: 10px 25px 10px 25px;
+  border: solid #030303 3px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #52616B;
+  text-decoration: none;
+}
