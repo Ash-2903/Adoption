@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+}
+
+td{
+    text-align: center;
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1
+{
+    text-align:center;
+    margin: auto;
+    padding: 4rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+    margin: auto 5rem;
+    line-height: 2;
+}
+
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+
+
+/************ navbar **********/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #C1AEFC;
+    color: #333;
+  }
+
+  /*********** marquee *************/
+
+  .marquee {
+    background-color: #F4EEFF;
+    font-family: 'Merriweather', serif;
+  }
+
+
+
+/*********** home ********************/
+
+.foodinfo {
+    background-color: #E3DFFD;
+    font-family: 'Merriweather', serif;
+}
+
+.customisedP {
+    margin: auto 5rem;
+}
+
+/************* middlediv **************/
+
+.middleDiv {
+    margin: 4rem;
+    text-align: center;
+    
+}
+
+
+
+
+/************** dog division ************/
+
+.dogSection {
+    background-color: #333;
+}
+
+.dogFood {
+    height: 25rem;
+    margin-bottom: 0;
+    
+}
+
+.dogFoodInfo {
+    background-color: #333;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+
+/************ cat division **************/
+
+.catSection {
+    background-color: #333;
+}
+
+.catFood {
+    height: 25rem;
+    margin-bottom: 0;
+    
+}
+
+.catFoodInfo {
+    background-color: #333;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+
+/************** button *************/ 
+
+.btn {
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Georgia;
+    color: #333;
+    font-size: 21px;
+    background: #EEEEEE;
+    padding: 9px 20px 8px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #E9E8E8;
+    text-decoration: none;
+  }
+
+
+
+
+/************* footer **************/
+
+.footer-link {
+    text-decoration: none;
+    margin-right: 2.5rem;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .contact-msg {
+    font-family: 'Merriweather', serif;
+    padding-bottom: 1.5rem;
+  }
+  
+  .cpright {
+    font-size: 0.7rem;
+    color: white;
+    padding-top: 1.5rem;
+  }
+
+  h2 {
+    padding-top: 3rem;
+  }
+
+  .div-6{
+    background-color: #A6B1E1;
+    text-align: center;
+    margin: 30px auto 0;
+    line-height: 2;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .catf {
+    height:10rem;    
+}
+
+.dogf {
+    height:10rem;   
+} */
+
+/* .catfood
+{
+    background-image: url("images/bg.png");
+}
+
+.dogfood
+{
+    background-image: url("images/bg.png");
+}
+.foodinfo, .catfood, .dogfood
+{
+    background-image: url("images/scr.png");
+} */
+/* .img
+{
+    height:20rem;
+    
+} */
