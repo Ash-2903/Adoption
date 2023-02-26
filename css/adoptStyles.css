@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+}
+
+td {
+    text-align: center;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+h1,h2,h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    margin: 1rem auto;
+}
+
+
+
+
+/************ navbar **********/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    font-family: 'Merriweather', serif;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #C1AEFC;
+    color: #333;
+  }
+
+
+  /************ top - table ***************/
+
+table {
+    margin: 3rem 4rem;
+}
+
+.tAc, .td2 {
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #DCD6F7;
+    border-radius: 4rem;
+    font-family: 'Merriweather', serif;
+}
+
+.cdAdoptImg {
+    height: 10rem;
+}
+
+.dummyImg {
+    padding-top: 4rem;
+    text-align: center;
+}
+
+
+  /**************** dropdown ***************/
+
+  .dropbtn {
+    background-color: #DCD6F7;
+    color: #333;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    /* position: relative; */
+    /* display: inline-block; */
+    padding-top: 0.5rem;
+    text-align: center;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #C1AEFC;
+  }
+
+
+  /******************* adoption *****************/
+
+  .dogs, .cats {
+    height: 20rem;
+  }
+
+  .adoptionImgTD {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 3rem;
+  }
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/************** adopt button ******************/
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #eaebf2;
+    font-size: 16px;
+    background: #333;
+    padding: 7px 15px 7px 15px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #111;
+    text-decoration: none;
+  }
+
+
+  /************* footer **************/
+
+.footer-link {
+    text-decoration: none;
+    margin-right: 2.5rem;
+    font-family: 'Merriweather', serif;
+    color: #48466D;
+  }
+  
+  .contact-msg {
+    font-family: 'Merriweather', serif;
+  }
+  
+  .cpright {
+    font-size: 0.7rem;
+    color: white;
+  }
+  
+  .div-6{
+    background-color: #A6B1E1;
+    text-align: center;
+    margin: 30px auto 0;
+    line-height: 2;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    
+  }
+
+  .footerIcon {
+    padding: 10px 10px 0;
+  }

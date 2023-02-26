@@ -1,89 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>
-        grooming
-    </title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Animal Grooming</title>
+    <link rel="stylesheet" href="css/stylesfood.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>
-        GROOMING
-    </h1>
-    <marquee>
-        <a href="#info">about</a> / <a href="#dogfood">dog food</a> / <a href="#catfood">cat food</a>
-    </marquee>
+
+    <div class="navbar">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">Info</a></li>
+            <li><a href="index.html">Contact</a></li>
+            <li><a href="index.html">About</a></li>
+          </ul>
+    </div>
+
+    <div class="marquee">
+        <marquee>
+            <a href="#info">about</a> / <a href="#dogfood">dog food</a> / <a href="#catfood">cat food</a>
+        </marquee>
+    </div>
+
     <div class="foodinfo" id="info">
+        <h1>Know everything about pet grooming</h1>
         <table>
+            <tr><td class="customisedTD">
+                <p class="customisedP">
+                    With proper pet grooming, you will get rid of shedding, fleas, ticks, and various health conditions. Proper grooming is more 
+                    than just having a cute pet. By grooming your pet, you will also be tackling potentially unhealthy conditions. It will also 
+                    allow you to identify any underlying conditions or diseases early. Therefore, you will be able to take your furry friend for 
+                    treatment sooner and more efficiently.
+                </p>
+            </td>
+            <td>
+                <img class="img1" src="images/groomingBg.png" alt="pic of the food">
+            </td>
+        </tr>
+        </table>                            
+    </div>
+
+    <div class="middleDiv">
+        <img src="images/brush.png" height="70rem">
+        <h2>Grooming</h2>
+        <p>
+            Grooming helps in checking for flea/parasite, addressing fur matting, identifying dermatologic issues,  soothing medicated shampoos for clean, shiny, fur, tracking weight, keeping your cat’s nails trimmed and ear cleaning.
+            How much grooming a dog needs depends on its breed, age, and health. Regular 
+                        grooming helps to ensure the dog is healthy and comfortable. Daily grooming decreases chance of various health problems, such as thrush, scratches, and other skin problems.
+        </p>
+    </div>
+
+    <div class="dogSection">
+        <table class="dogTable" cellspacing="0" cellpadding="0">
             <tr>
-                <td>
-                    
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque nobis aliquid laborum nihil esse excepturi ea accusantium, quo corporis quisquam pariatur temporibus debitis veritatis expedita iure eaque quam alias id?
-                    Est dignissimos suscipit iure? Doloremque enim ex nesciunt at ea, aperiam dolor quos temporibus impedit voluptates molestias totam debitis sequi facilis, vero suscipit tempore molestiae? Temporibus officia animi architecto. Voluptas!
-                    Est eius aliquam quia alias. Sequi, maiores facere, quo quaerat fugiat sit id unde magnam minus laboriosam illo obcaecati libero enim autem voluptas. Ipsa delectus tempora adipisci ducimus aliquid sed.
-                    Eaque, ratione nam nemo molestias debitis aperiam vel dolorem ducimus architecto hic numquam incidunt earum aspernatur reprehenderit cupiditate animi aliquam quaerat et maiores, enim quas. Blanditiis, iste. Fugit, maiores eum.
-                    Aspernatur deleniti, eius ipsum similique veniam molestiae, ipsam nulla distinctio repellat provident recusandae, voluptatem eaque hic architecto error expedita quibusdam dolor quam blanditiis tempora consequatur voluptas. Deserunt quae voluptas veniam.
-                    
+                <td><img class="dogFood" src="images/dogGrooming.webp"></td>
+                <td class="dogFoodInfo">
+                    <h3>For Dogs</h3>
+                    <p>Dog grooming refers to both the hygienic care and cleaning of a dog, as well as a process by which a dog's physical appearance is enhanced for showing or other types of competition.
+                        Grooming is a vital part in the well-being and healthiness of a dog, which can improve its quality of life. 
+                    </p><br><br>
+                    <a class="btn" href="https://www.pawspace.in/pet-grooming/">Click here</a>
                 </td>
-                <td>
-                    
-                    <img class="img" src="images/dog.png" alt="pic of the food">
-                    
+            </tr>
+        </table>
+    </div><br><br>
+
+    <div class="catSection">
+        <table class="catTable" cellspacing="0" cellpadding="0">
+            <tr>
+                <td><img class="dogFood" src="images/catGrooming.jpg"></td>
+                <td class="catFoodInfo">
+                    <h3>For Cats</h3>
+                    <p>By nature, cats are well equipped to groom themselves. 
+                        Cats groom themselves to try to rid of any scents that may let other animals know they are around. Grooming also helps distribute their natural oils to make their fur shiny and clean. 
+                        One of the great advantages of grooming at is that we make it completely stress-free.
+                        </p><br><br>
+                    <a class="btn" href="https://www.pawspace.in/pet-grooming/">Click here</a>
                 </td>
             </tr>
         </table>
     </div>
-    <h2>
-        food for cats and dogs
-    </h2>
-    <h3>
-        cats:
-    </h3>
-    <center>
-    <div class="cat food" id="dogfood">
-        <table>
-            <tr>
-                <td>
-                    <img class="catf" src="images/cat food.png" alt="cat food">
-                </td>
-                <td>
-                    <h2>types</h2>
-                    <ul type="disc">
-                        <li>cooked beef</li>
-                        <li>chicken</li>
-                        <li>turkey</li>
-                        <li>abcd</li>
-                        <li>xyz</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+
+
+
+
+
+
+    <div class="div-6">
+        <h2>Get In Touch</h2>
+        <h5>Contact us through any of the following means.</h5>
+        <p class="contact-msg">Reach out to us for any queries. Will reply back within 24 hrs. </p>
+        <a class="footer-link" href="">Facebook</a>
+        <a class="footer-link" href="">Twitter</a>
+        <a class="footer-link" href="">Instagram</a>
+        <p class="cpright">© 2023 Adoption Centre @bmsit&m.</p>
+
     </div>
-    </center>
-    <h3>
-        dogs:
-    </h3>
-    <center>
-    <div class="dog food" id="dogfood">
-        <table>
-            <tr>
-                <td>
-                    <img class="dogf" src="images/dog food.png" alt="cat food">
-                </td>
-                <td>
-                    <h2>types</h2>
-                    <ul type="disc">
-                        <li>pumpkin</li>
-                        <li>bones</li>
-                        <li>turkey</li>
-                        <li>abcd</li>
-                        <li>xyz</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-    </div>
-    </center>
-<a href="">home</a>
+
+    
 </body>
 </html>
